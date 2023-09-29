@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;1,6..12,200&family=Ubuntu:ital,wght@0,400;1,300&family=Varela&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* nav bar  */
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    align-items: center;
+    color: white;
+    
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand img{
+    width: 46px;
+    padding: 0px 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold ;
+    font-size: 1.3rem ;
+}
+
+
+
+/* bottom class  */
+
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela', sans-serif;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 35px;
+    background-image: url('bg.jpg');
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.icons i{
+   cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#myprogressbar{
+    width: 80vw;
+    margin-left: 104px;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 60px;
+}
+.songitem{
+    height: 30px;
+    display: flex;
+    background-color: white;
+    width: 35%;
+    color: black;
+    margin: 12px 0px ;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+    
+}
+
+.songitem img{
+    width: 28px ;
+    margin: 0px -8px ;
+    border-radius: 12px;
+
+}
+
+.timestamp i{
+    cursor: pointer;
+    justify-content: right;
+    
+}
+
+.songinfo{
+    position: absolute;
+    left: 7vw;
+    font-family: 'Varela', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    font-family: 'Varela', sans-serif;
+}
